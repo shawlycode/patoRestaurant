@@ -119,6 +119,7 @@ nav {
   align-items: center;
   text-align: center;
   max-width: 600px;
+  justify-content: center;
 }
 .resText {
   color: #d61c2b;
@@ -136,20 +137,32 @@ nav {
   letter-spacing: 1.5px;
   padding-bottom: 30px;
 }
+.aboutBtn {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  text-align: center;
+}
+.aboutBtn i:hover {
+  color: red;
+}
 .aboutBtn a {
   font-size: 12px;
   color: grey;
   text-transform: uppercase;
+  padding-left: 180px;
 }
-.aboutBtn:hover {
-  color: rgba(255, 0, 0, 0.822);
-  cursor: pointer;
-  padding-right: 30px;
+.aboutBtn i {
+  font-size: 12px;
+  color: grey;
+}
+.aboutBtn a:hover {
+  color: red;
 }
 
 /* DISCOVER STYLES */
 #discover {
-  background-image: url(/assets/images/pork-hock-german-with-sauces-dark-background.jpg);
+  background-image: url('../assets/images/pork-hock-german-with-sauces-dark-background.jpg');
   height: 50vh;
   object-fit: contain;
   background-size: cover;
@@ -515,4 +528,38 @@ select option {
 }
 .formHeader .headerSubText {
   text-align: center;
+}
+
+.myVideo {
+  height: 60vh;
+  width: 100vw;
+  background-color: red;
+  align-items: center;
+  justify-content: center;
+}
+
+.myVideo video {
+  width: 100%;
+  height: inherit;
+  background-size: cover;
+}
+/* footer styles */
+#footerSection {
+  height: 60vh;
+  width: 100vw;
+  background-color: #222222;
+  color: #a9aca8;
+}
+.footer_contact {
+  align-items: center;
+}
+.contact_items {
+  display: flex;
+  gap: 15px;
+}
+.footer_container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  gap: 30px;
 }
