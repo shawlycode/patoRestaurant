@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pato Restaurant</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Courgette&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/swipper.css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  </head>
+  <body>
+    <div class="main__container">
+      <nav>
+        <div class="logo">
+          <img src="./assets/logos/logo2.png.webp" alt="pato's logo" />
+        </div>
+        <div class="nav__links">
+          <span>Home</span>
+          <span>Menu</span>
+          <span>Reservation</span>
+          <span>Gallery</span>
+          <span>About</span>
+          <span>Blogs</span>
+          <span>Contact</span>
+        </div>
+      </nav>
+      <section id="hero">
+        <div id="hero_overlay">
+          <div class="overlay_content">
+            <span class="welcome_text courgette-regular">Welcome to</span>
+            <span class="header_text poppins-bold">PATO PALACE</span>
+            <button class="menu_btn">LOOK MENU</button>
+          </div>
+        </div>
+      </section>
+      <section id="about_section">
+        <div class="left_content">
+          <h2 class="courgette-regular resText">Italian Restaurant</h2>
+          <h3 class="welText poppins-bold">welcome</h3>
+          <p class="aboutText Montserrat">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto
+            saepe laborum nam quos velit ducimus sed voluptatem iste eius
+            nesciunt!
+          </p>
+          <div class="aboutBtn">
+            <a href="">Our Story</a>
+            <i class="fa-solid fa-arrow-right"></i>
+          </div>
+        </div>
+        <div class="right_content">
+          <img src="./assets/images/teco.webp" alt="teco picture" />
+        </div>
+      </section>
+      <section id="discover">
+        <div class="discoverOverlay">
+          <h3 class="courgette-regular">Discover</h3>
+          <p class="poppins-bold">Pato Palace</p>
+        </div>
+      </section>
+      <section id="featuresSection">
+        <div class="features_container">
+          <div class="featureHover">
+            <div class="feature_img">
+              <img src="./assets/images/intro-01.jpg.webp" alt="" />
+            </div>
+            <div class="feature_content">
+              <a href="#" class="poppins-bold">ROMANTIC RESTAURANT</a>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Quisquam, eius sed quibusdam nemo quae ducimus!
+              </p>
+              <div class="featureBtn">
+                <a href="#">LEARN MORE</a>
+                <i class="fa-solid fa-arrow-right"></i>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="feature_img">
+              <img src="./assets/images/intro-02.jpg.webp" alt="" />
+            </div>
+            <div class="feature_content">
+              <a href="#" class="poppins-bold">DELICIOUS FOOD</a>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Quisquam, eius sed quibusdam nemo quae ducimus!
+              </p>
+              <div class="featureBtn">
+                <a href="#">LEARN MORE</a>
+                <i class="fa-solid fa-arrow-right"></i>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="feature_img">
+              <img src="./assets/images/wine.webp" alt="" />
+            </div>
+            <div class="feature_content">
+              <a href="#" class="poppins-bold">RED WINES YOU LOVE</a>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Quisquam, eius sed quibusdam nemo quae ducimus!
+              </p>
+              <div class="featureBtn">
+                <a href="#">LEARN MORE</a>
+                <i class="fa-solid fa-arrow-right"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="menu_section">
+        <div class="menu_header">
+          <h3 class="courgette-regular headerText">Discover</h3>
+          <p class="poppins-bold headerSubText">our menu</p>
+        </div>
+        <div class="menuSection">
+          <div class="menu_left-img">
+            <figure>
+              <img src="./assets/images/shrimps.webp" alt="" />
+            </figure>
+            <button class="menus_btn">LUNCH</button>
+          </div>
+          <div class="menu_left-img">
+            <img src="./assets/images/wine2.webp" alt="" />
+            <button class="menus_btn">DINNER</button>
+          </div>
+          <div class="right_container">
+            <div class="menu_topImg">
+              <img src="./assets/images/drink.webp" alt="" />
+              <button class="menusRight_btn">DRINKS</button>
+            </div>
+            <div class="menu_topImg">
+              <img src="./assets/images/starter.webp" alt="" />
+              <button class="menusRight_btn">STARTER</button>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="menu_row-bottom">
+          <div class="menu__left-img">
+            <img src="./assets/images/starter.webp" alt="" />
+            <button class="menusRight_btn">STARTER</button>
+          </div>
+          <div class="menu__right-img">
+            <img src="./assets/images/starter.webp" alt="" />
+            <button class="menusRight_btn">STARTER</button>
+          </div> -->
+        </div>
+      </section>
+      <section id="events_Section" >
+        <div class="eventsOverlay">
+          <h3 class="courgette-regular">Discover</h3>
+          <p class="poppins-bold">Pato Palace</p>
+        </div>
+      </section>
+      <section id="reservation">
+
+
+        <div class="reservation_container">
+
+          <div class="form_container"> 
+                <div class="formHeader">
+              <h3 class="courgette-regular headerText">Reservation</h3>
+              <p class="poppins-bold headerSubText">book table</p>
+              </div>
+
+            <form action="">
+              <div class="input_row">
+                <div class="row_container">
+                  <label for="date">Date</label>
+                   <input type="date">
+                </div>
+                <div class="row_container">
+                  <label for="date">Name</label>
+                   <input type="text" placeholder="Name" >
+                </div>
+              </div>
+              <div class="input_row">
+                <div class="row_container">
+                  <label for="date">Time</label>
+                   <input type="time">
+                </div>
+                <div class="row_container">
+                  <label for="date">Phone</label>
+                   <input type="text" placeholder="Phone" >
+                </div>
+              </div>
+              <div class="input_row">
+                <div class="row_container">
+                  <label for="date">People</label>
+                   <select name="people" id="" >
+                    <option value="">People1</option>
+                    <option value="">People1</option>
+                    <option value="">People1</option>
+                    <option value="">People1</option>
+                    <option value="">People1</option>
+                    <option value="">People1</option>
+                   </select>
+                </div>
+                <div class="row_container">
+                  <label for="date">Email</label>
+                   <input type="email" placeholder="Email" >
+                </div>
+              </div>
+              <div class="formBtn">
+                <a href="#">BOOK TABLE</a>
+              </div>
+            </form>
+          </div>
+          <div class="right_content formRight_img">
+            <img src="./assets/images/contact.webp" alt="">
+          </div>
+
+
+
+        </div>
+
+
+
+
+      </section>
+
+      <section class="swiper mySwiper">
+         <div class="reviews">
+            <h3 class="courgette-regular">Customers say</h3>
+            <p class="poppins-bold">review</p>
+          </div>
+        <div class="swiper-wrapper">
+
+      <div class="swiper-slide">
+        <div class="slider_img-container">
+              <img src="./assets/images/avatar-01.jpg.webp" alt="">
+              </div>
+               <div class="slider_content">
+
+                <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                  Pariatur nulla quibusdam temporibus harum accusantium natus </p>
+                  <div class="slider-ratings">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <h3>Marrie Simons- new york</h3>
+              </div>
+      </div>
+
+      <div class="swiper-slide">
+        <div class="slider_img-container">
+              <img src="./assets/images/avatar-04.jpg.webp" alt="">
+              </div>
+               <div class="slider_content">
+
+                <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                  Pariatur nulla quibusdam temporibus harum accusantium natus </p>
+                  <div class="slider-ratings">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <h3>Marrie Simons- new york</h3>
+              </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="slider_img-container">
+              <img src="./assets/images/avatar-05.jpg.webp" alt="">
+              </div>
+               <div class="slider_content">
+
+                <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                  Pariatur nulla quibusdam temporibus harum accusantium natus </p>
+                  <div class="slider-ratings">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <h3>Marrie Simons- new york</h3>
+              </div>
+      </div>
+    </div>
+    <div class="swiper-button-next "></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-pagination"></div>
+      </section>
+      <section>video</section>
+      <section id="featuresSection">
+          <div class="blogHeader ">
+          <h3 class="courgette-regular headerText">Latest News</h3>
+          <p class="poppins-bold headerSubText">the blog</p>
+        </div>
+        <div class="features_container">
+          <div class="featureHover">
+            <div class="feature_img">
+              <img src="./assets/images/blog-01.jpg.webp" alt="" />
+            </div>
+            <div class="feature_content">
+              <a href="#" class="poppins-bold">BEST PLACES FOR WINE</a>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Quisquam, eius sed quibusdam nemo quae ducimus!
+              </p>
+              <div class="featureBtn">
+                <a href="#">CONTINUE READING</a>
+                <i class="fa-solid fa-arrow-right"></i>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="feature_img">
+              <img src="./assets/images/blog-02.jpg.webp" alt="" />
+            </div>
+            <div class="feature_content">
+              <a href="#" class="poppins-bold">EGGS AND CHEESE</a>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Quisquam, eius sed quibusdam nemo quae ducimus!
+              </p>
+              <div class="featureBtn">
+                <a href="#">CONTINUE READING</a>
+                <i class="fa-solid fa-arrow-right"></i>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="feature_img">
+              <img src="./assets/images/blog-03.jpg.webp" alt="" />
+            </div>
+            <div class="feature_content">
+              <a href="#" class="poppins-bold">STYLE THE WEDDING PARTY</a>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Quisquam, eius sed quibusdam nemo quae ducimus!
+              </p>
+              <div class="featureBtn">
+                <a href="#">CONTINUE READING</a>
+                <i class="fa-solid fa-arrow-right"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>SignUp Section</section>
+      <section>Gallery Footer Section</section>
+      <section>Footer Section</section>
+    </div>
+  </body>
+    <!-- Swiper JS -->
+     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="./js/index.js"></script>
+</html>
